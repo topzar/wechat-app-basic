@@ -1,7 +1,8 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/discover/index",
+    "pages/me/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -9,6 +10,31 @@
     "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle": "black"
   },
-  "style": "v2",
+  "tabBar": {
+    "custom": true,
+    "color": "#000000",
+    "selectedColor": "#000000",
+    "backgroundColor": "#000000",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "/images/tabBar/index.png",
+        "selectedIconPath": "/images/tabBar/index_s.png",
+        "text": "Home"
+      },
+      {
+        "pagePath": "pages/discover/index",
+        "iconPath": "/images/tabBar/award.png",
+        "selectedIconPath": "/images/tabBar/award_s.png",
+        "text": "Discover"
+      },
+      {
+        "pagePath": "pages/me/index",
+        "iconPath": "/images/tabBar/mine.png",
+        "selectedIconPath": "/images/tabBar/mine_s.png",
+        "text": "Me"
+      }
+    ]
+  },
   "sitemapLocation": "sitemap.json"
 }

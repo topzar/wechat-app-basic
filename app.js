@@ -7,7 +7,7 @@ App({
 
     updateManager.onCheckForUpdate(function (res) {
       // 请求完新版本信息的回调,返回true或false
-      console.log(res.hasUpdate)
+      //console.log(res.hasUpdate)
     })
 
     //监听小程序有版本更新事件
