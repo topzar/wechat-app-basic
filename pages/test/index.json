@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText":"底部弹框组件",
+  "usingComponents": {
+    "bottom-modal":"/components/bottom-modal/bottom-modal"
+  }
+} 

@@ -1,0 +1,11 @@
+<view class="modal" hidden="{{!modalShow}}">
+  <view class="panel">
+      <view class="modal-title">
+        <text class="title">{{title}}</text>
+        <text class="close" bind:tap="onClose">X</text>
+      </view>
+      <view class="modal-body">
+        <slot name="modal-content"></slot>
+      </view>
+  </view>
+</view>

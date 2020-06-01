@@ -1,0 +1,6 @@
+<button bindtap='popup' type="default" size="mini">底部弹框按钮</button>
+<bottom-modal modalShow="{{modalShow}}" title="弹框标题">
+  <view slot="modal-content">
+      <view class='text'>弹框内容</view>  
+  </view>
+</bottom-modal>
