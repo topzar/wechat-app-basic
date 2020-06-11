@@ -1,1 +1,16 @@
-<view class="tac">Home</view>
+<view class="container">
+<van-grid clickable column-num="2">
+  <van-grid-item
+    icon="other-pay"
+    link-type="navigateTo"
+    url="/pages/test/index"
+    text="底部弹出层"
+  />
+  <van-grid-item
+    icon="scan"
+    link-type="switchTab"
+    url="/pages/discover/index"
+    text="发现"
+  />
+</van-grid>
+</view>
