@@ -1,0 +1,18 @@
+{
+  "light": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTextStyle": "black",
+    "tabBarBackgroundColor": "#fff",
+    "tabBarSelectedColor": "#333",
+    "tabBarColor": "#333"
+  },
+  "dark": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#333",
+    "navigationBarTextStyle": "white",
+    "tabBarBackgroundColor": "#333",
+    "tabBarSelectedColor": "#fff",
+    "tabBarColor": "#fff"
+  }
+}
